@@ -1,0 +1,311 @@
+body {
+	padding-top:0px;
+	padding-bottom:0px;
+	font-family: Calibre;
+	font-size:15px;
+	line-height:25px;
+	font-weight:500;
+	
+}
+ h1,h2,h3,h4,h5,h6 {
+	font-weight:bold;
+	font-family: arial;
+	font-color: #FFFAFA;
+}
+a{
+	color: white;
+}
+
+a:hover {
+	color: #FFB84D;
+}
+
+.container {
+	z-index:100;
+	position:relative;
+}
+.colortext {
+	color: white;
+}
+
+h1,.h1 {
+	font-size:40px;
+}
+.text-left {
+	text-align:left !Important;
+}
+.page-header {
+	border-bottom:0;
+	margin-bottom:25px;
+}
+.navbar-default .navbar-brand {
+	color: #8B0000; /*cor do nome instituto amar*/
+	padding:0;
+	font-size:27px;
+	line-height:55px;
+	font-weight:600;
+	font-family: arial;
+}
+
+a:focus,a:active,button {
+	outline:none;
+	outline:0;
+	
+}
+/****************** SECTIONS *************************/
+header#top-section {
+		position:relative;
+		overflow:hidden;
+		padding-top:0px;
+		background:#111;
+		min-height:730px;
+		width:100%;
+		min-width:100%;
+		z-index:0;
+}
+
+.jumbotron {
+			background:none;
+			position:fixed;
+			top:0px;
+			left:0px;
+			right:0px;
+			z-index:1;
+			width:100%;
+			text-align:center;
+			padding-right:0px;
+			padding-left:0px;
+}
+.jumbotron h1 {
+	font-size:40px;
+}
+
+#texto{
+	color:#FFFAFA;
+}
+#texto-preto{
+	color: black;
+}
+#link-amarelo a{
+	color: purple;
+}
+#link-amarelo a:hover{
+	color: #FF8C00;
+
+}
+section {
+		padding-bottom:100px;
+		min-height:730px;
+		width:100%;
+		min-width:100%;
+		position:relative;
+		overflow:hidden;
+		background-image: url(https://scontent.fnat1-1.fna.fbcdn.net/v/t1.0-9/53926461_2813232185385237_2377868146183766016_n.jpg?_nc_cat=107&_nc_ht=scontent.fnat1-1.fna&oh=2a4934192017fd7a3df803b76847c30f&oe=5D05CADB); 
+
+}
+
+
+ #inicio:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	background: #006400;
+	width:100%;
+	height:100%;
+}
+#sobre:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#8B0000;
+	width:100%;
+	height:100%;
+}
+
+
+
+#galeria:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	background: #DAA520;
+	width:100%;
+	height:100%;
+	
+}
+
+#facaparte:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	background: #006400;
+	width:100%;
+	height:100%;
+	
+}
+
+#contato:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	background: #8B0000;
+	width:100%;
+	height:100%;
+	
+}
+.ace{
+	text-align: center;
+	width: 400px;
+}
+.ace li{
+display: inline;
+
+padding-top: 2%;
+padding-bottom: 2%;
+
+
+
+
+}
+.ace li a{
+	font-size: 16px;
+	color: blue;
+	text-decoration: none;
+
+}
+
+.ace li a:hover{
+	color: white ;
+	background-color: #32CD32;
+	text-decoration: none;
+
+}
+ 
+footer {
+	
+		width:100%;
+		min-width:100%;
+		position:relative;
+		font-size:13px;
+		padding-bottom:10px;
+}
+
+.back{ /*configurações do rodape*/
+	background-image:url(http://brctecidos.com.br/wp-content/uploads/freshizer/fb3b799a40c826a8a84649774b3cf0a8_Albercan-Vermelho-Escuro-Red-Dark-863-430-c.jpg);
+	font-size: 14px;
+}
+
+
+ /*cor dos textos*/
+ .color-white a,.color-white,.color-white h1,.color-white h2,.color-white h3,.color-white h4,.color-white h5,.color-white h6	 {
+	color:#fff;
+}
+
+/****************** NAVIGATION STYLES *************************/
+.navbar {
+	background: white;
+	min-height:60px;
+	border:0;
+	
+}
+navbar-fixed-top {
+		z-index:1030;
+}
+.navbar .nav>li>a {
+		float:none;
+		padding:0px 20px 0px;
+		color: green;
+		text-decoration:none;
+		text-shadow:none;
+		font-size:15px;
+				line-height:60px;
+				font-family: arial;
+				font-weight:500;
+}
+.navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus {
+		color:green;
+		text-decoration:none;
+		background-color: orange;
+		-webkit-box-shadow:none;
+			-moz-box-shadow:none;
+				box-shadow:none;
+}
+.navbar .nav>.active>a,.navbar .nav>.active>a:hover,.navbar .nav>.active>a:focus {
+	background-color: green;
+	color: white;
+}
+
+.section-divider {
+		height:10px;
+	position:relative;
+	padding-bottom:90px;
+}
+
+
+
+
+
+		/*************** @media ******************/
+@media (max-width:979px) {
+		body {
+						padding:0px;
+	}
+		.navbar-fixed-top {
+						margin-bottom:0px;
+	}
+				.navbar-fixed-top,.navbar-fixed-bottom {
+						position:relative;
+	}
+				.navbar .container {
+						width:auto;
+						padding:0px 20px;
+	}
+				.navbar .brand {
+						padding-right:10px;
+						padding-left:10px;
+						margin:0 0 0 15px;
+	}
+		.container {
+						padding:0px 20px;
+	}
+				.jumbotron {
+						padding:0px;
+						top:30px;
+	}
+		.jumbotron h1 {
+						color:#fff;
+						padding-top:0px;
+						font-size:30px;
+	}
+		.jumbotron .first {
+						padding-top:70px;
+	}
+				.bx-wrapper .testimonials-carousel-thumbnail img {
+						width:80px;
+						height:80px;
+	}
+		.bx-wrapper .testimonials-carousel-context {
+											font-size:12px;
+	}
+		.bx-wrapper .testimonials-carousel-thumbnail {
+						max-width: 70px;
+	}
+	
+	.boxservice {width:100%;border:1px solid rgba(255,255,255,0.3);}
+	.grid li {width:50%;}
+}
+
+
+#desenvolvedora{
+	color: yellow;
+}
